@@ -1,3 +1,4 @@
+import "./style.css";
 import { pacienteInput, propietarioInput, emailInput, fechaInput, sintomasInput, formulario } from './selectores.js'
 import { datosCita, submitCita } from './funciones.js'
 
