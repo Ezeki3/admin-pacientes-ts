@@ -1,14 +1,5 @@
-import { generarId } from "./funciones"
-
-interface Cita {
-    [key: string]: string //Index Signature
-    id: string;
-    paciente: string;
-    propietario: string;
-    email: string;
-    fecha: string;
-    sintomas: string;
-}
+import { generarId } from "./funciones";
+import type { Cita } from "./types";
 
 let editando = {
     value: false
